@@ -1,7 +1,7 @@
 # This code is for utilizing vaman by uploading wifi code into it using the arduino.
 
 ## Steps to follow:
-1) Intially, Follow all the steps as given in vaman/installation/termuxdebian/termuxubuntu_esp32.txt
+1) Intially, Follow all the steps as given in **vaman/installation/termuxdebian/termuxubuntu_esp32.txt**
 2) **Or** Download all the files that i provided and do the installations in <b> point3</b>
 3) apt update && apt upgrade <br>
    apt install python3-pip <br>
@@ -12,8 +12,8 @@
 5) In the setup file, we will get 4 files inside it. <br>
    namely: src, .pio, platformio.ini, README.md
 6) Remember to change the main.cpp that is in src folder<br>
-   #define STASSID "Salient" // Add your network username<br>
-   #define STAPSK  "12345678" // Add your network password<br>
+   #define STASSID "Salient" **// Add your network username<br>**
+   #define STAPSK  "12345678" **// Add your network password<br>**
 7) Connect the arduino and vaman together, connect arduino to phone via otg and then vaman to arduino via the installation pdf. 
 8) Now we have to be in the setup directory and run <b> pio run </b>.
 9) Remeber to remove enable pin <b>EN</b> as soon as it displays <b>Connecting...</b> and then remove <b>0</b> pin when it displays <b>writing 100%</b> and before           <b>Leaving...</b>
