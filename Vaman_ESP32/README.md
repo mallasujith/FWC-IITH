@@ -12,4 +12,6 @@
 5) In the setup file, we will get 4 files inside it. <br>
    namely: src, .pio, platformio.ini, README.md
 6) Connect the arduino and vaman together, connect arduino to phone via otg and then vaman to arduino via the installation pdf. 
-7) Now we have to be in the setup directory and run <b> pio run <b>.
+7) Now we have to be in the setup directory and run <b> pio run </b>.
+8) Remeber to remove enable pin <b>EN<b> as soon as it displays <b>Connecting...</b> and then remove <b>0</b> pin when it displays <b>writing 100%</b> 
+9) Once after succesfully uploading the code
