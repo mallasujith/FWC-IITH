@@ -12,4 +12,4 @@
 10) Now **connect the vaman to pc**.
 11) Make sure that vaman is in **Download mode**, i.e Green Led must be blinking.
 12) **To enable Download Mode**: Press **RST** button once and then press **USR** button twice, this should do the job.
-13) 
+13) The code gets Successfully Booted.
