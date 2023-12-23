@@ -2,7 +2,7 @@
 
 ## Steps to follow:
 1) Intially, Follow all the steps as given in vaman/installation/termuxdebian/termuxubuntu_esp32.txt
-2) **or** Download all the files that i provided and do the installations in <b> point3</b>
+2) **Or** Download all the files that i provided and do the installations in <b> point3</b>
 3) apt update && apt upgrade <br>
    apt install python3-pip <br>
    pip3 install platformio <br>
