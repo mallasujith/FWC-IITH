@@ -11,7 +11,10 @@
 4) After performing the first step, a setup file will be created. or if you perform step 2 and 3 you can skip the 4th step.
 5) In the setup file, we will get 4 files inside it. <br>
    namely: src, .pio, platformio.ini, README.md
-6) Connect the arduino and vaman together, connect arduino to phone via otg and then vaman to arduino via the installation pdf. 
-7) Now we have to be in the setup directory and run <b> pio run </b>.
-8) Remeber to remove enable pin <b>EN</b> as soon as it displays <b>Connecting...</b> and then remove <b>0</b> pin when it displays <b>writing 100%</b> and before           <b>Leaving...</b>
-9) Once after succesfully uploading the code, we can upload new code using <b>pio run -t nobuild -t upload --upload-port 192.168.210.X </b>
+6) Remember to change the main.cpp that is in src folder<br>
+   #define STASSID "Salient" // Add your network username<br>
+   #define STAPSK  "12345678" // Add your network password<br>
+7) Connect the arduino and vaman together, connect arduino to phone via otg and then vaman to arduino via the installation pdf. 
+8) Now we have to be in the setup directory and run <b> pio run </b>.
+9) Remeber to remove enable pin <b>EN</b> as soon as it displays <b>Connecting...</b> and then remove <b>0</b> pin when it displays <b>writing 100%</b> and before           <b>Leaving...</b>
+10) Once after succesfully uploading the code, we can upload new code using <b>pio run -t nobuild -t upload --upload-port 192.168.210.X </b>
