@@ -1,6 +1,6 @@
 This code is for utilizing vaman by uploading wifi code into it using the arduino.
 
-##Steps to follow:
+## Steps to follow:
 1) Intially, Follow all the steps as given in vaman/installation/termuxdebian/termuxubuntu_esp32.txt
 2) or
 3) apt update && apt upgrade <br>
