@@ -24,4 +24,4 @@
 12) Make sure that vaman is in **Download mode**, i.e Green Led must be blinking.
 13) **To enable Download Mode**: Press **RST** button once and then press **USR** button twice, this should do the job.
 14) The code gets Successfully Booted.
-15) **Error:**CLI mode, No port Found - Kindly change the cable, board and retry
+15) **Error:** CLI mode, No port Found - Kindly change the cable, board and retry
