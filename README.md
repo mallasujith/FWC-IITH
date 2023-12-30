@@ -1,2 +1,1 @@
-# Latex_program
-This is the latex program on Wireless 5g Technology 
+#This is the repository that contains the course flow of my internship program.
