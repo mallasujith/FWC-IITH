@@ -6,7 +6,7 @@
 Here we used **Anode 7 segment diaplay** i.e we connect **COM** pin to **5V** pin.<br>
 Diagram of 7 segment display:<br>
   A<br>
-F   B<br>
+F \t B<br>
   G<br>
-E   C<br>
+E \t C<br>
   D<br>
