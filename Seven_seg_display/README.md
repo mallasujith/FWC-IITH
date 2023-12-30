@@ -4,8 +4,8 @@
 2) By selectively illuminating the segments, different characters can be displayed.
 3) It is commonly used in devices like digital clocks and calculators for numeric representation.
 Here we used **Anode 7 segment diaplay** i.e we connect **COM** pin to **5V** pin.<br>
-Diagram of 7 segment display:<br>
 <pre>
+Diagram of 7 segment display:
   A<br>
 F    B<br>
   G<br>
