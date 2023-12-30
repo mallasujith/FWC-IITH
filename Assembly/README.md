@@ -11,6 +11,6 @@ People use Assembly Language when they need to be super clear and efficient in t
 ## How to upload to board Then ??
 As we are using **Arduino Droid** and we cannot directly upload <b>.asm</b> file using it.<br>
 We use **avra filename.asm**  to generate ,bin file from assembly file.<br>
-If avra does not exist then install it using **apt install avra** <br>
+If **avra** does not exist then install it using **apt install avra** <br>
 After generating **.bin** file we can directly upload it using arduino droid,<br>
 just head to <b> Menu --> Actions --> Upload --> Upload precompiled --> .bin file location --> Done</b>
