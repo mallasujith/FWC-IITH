@@ -1,0 +1,3 @@
+LaTeX (pronounced <b> "LAY-tech" </b> or <b> "LAH-tech" </b>) is not a programming language per se but a typesetting system commonly used for the production of technical and scientific documents. 
+It is based on the TeX typesetting system, which was developed by Donald Knuth. 
+LaTeX provides a set of macros and commands that simplify the process of formatting and typesetting documents, especially those containing complex mathematical equations, scientific notations, and references.
