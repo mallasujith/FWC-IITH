@@ -19,7 +19,8 @@ In here I used Arduino to connect and program 7-Segment Display to display incre
 A state machine is a conceptual model that defines the behavior of a system by depicting its various states, transitions between these states, and the events triggering these transitions.<br>
 In this computational model, a system can exist in a finite number of distinct states, and transitions occur based on specific events or conditions. <br>
 Each state represents a unique mode or situation of the system.<br>
-**There are two primary categories of state machines:** <br>
+
+### There are two primary categories of state machines:
 
 <b>1)Finite State Machine (FSM):</b>This type comprises a finite set of states, and transitions between states are dictated by well-defined inputs or events. FSMs find applications in diverse fields, including digital circuit design, software development, and protocol specifications.
 <br>
