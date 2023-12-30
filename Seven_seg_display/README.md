@@ -16,7 +16,9 @@ E    C<br>
 In here I used Arduino to connect and program 7-Segment Display to display incrementing numbers.<br>
 
 ## State Machine
-A state machine is a conceptual model that defines the behavior of a system by depicting its various states, transitions between these states, and the events triggering these transitions. In this computational model, a system can exist in a finite number of distinct states, and transitions occur based on specific events or conditions. Each state represents a unique mode or situation of the system.
+A state machine is a conceptual model that defines the behavior of a system by depicting its various states, transitions between these states, and the events triggering these transitions.<br>
+In this computational model, a system can exist in a finite number of distinct states, and transitions occur based on specific events or conditions. <br>
+Each state represents a unique mode or situation of the system.
 <br>
 **There are two primary categories of state machines:** <br>
 
