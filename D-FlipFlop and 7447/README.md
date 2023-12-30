@@ -38,5 +38,5 @@ The truth table for a D flip-flop shows the relationship between its inputs (D f
 </pre>
 # 7447
 As we previously saw the working of 7-segment display, you can see that the signals sent are written using binary number format.<br>
-##### To Solve this:
+### To Solve this:
 We use 7447 Decoder in order to take digital numbers as input and generate a format that is sent to 7-segment display in order to simplify our work.
