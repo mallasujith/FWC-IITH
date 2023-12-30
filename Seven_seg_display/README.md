@@ -13,3 +13,6 @@ F    B<br>
 E    C<br>
   D<br>
 </pre>
+In here I used Arduino to connect and program 7-Segment Display to display incrementing numbers.<br>
+
+## State Machine
