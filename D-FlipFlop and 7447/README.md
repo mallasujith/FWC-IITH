@@ -26,3 +26,13 @@ Now, whenever you want to know what's in the box, you can check the output. We c
 
 The cool thing is, the box only pays attention to the Data Slot when you press the Clock button. It's like freezing a moment in time to remember what's in there. This is super handy for storing information in computers and other electronic gadgets!
 </pre>
+
+### Truth Table
+The truth table for a D flip-flop shows the relationship between its inputs (D for Data, and clock) and its outputs (Q for output and Q' for the complemented output). Here's a typical truth table for a positive-edge-triggered D flip-flop <br>
+<pre>
+| D | Clock | Q (output) | Q' (complement) |
+|---|-------|------------|-----------------|
+| 0 |   ↑   |      0     |        1        |
+| 1 |   ↑   |      1     |        0        |
+|---|-------|------------|-----------------|
+</pre>
