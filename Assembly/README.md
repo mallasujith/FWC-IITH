@@ -1,4 +1,3 @@
-This contains the code for assembly language to solve a boolean equation and see whether both the equations produce the same output or not
 # What is Assembly Language !@#$%
    let's <b>imagine</b> you're in a magical land of talking robots. These robots understand a language, but it's not like English or any language you speak. It's more like a secret code that only robots get.<br>
 
