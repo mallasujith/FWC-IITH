@@ -20,6 +20,6 @@ A state machine is a conceptual model that defines the behavior of a system by d
 <br>
 **There are two primary categories of state machines:** <br>
 
-    ** 1)Finite State Machine (FSM): ** This type comprises a finite set of states, and transitions between states are dictated by well-defined inputs or events. FSMs find applications in diverse fields, including digital circuit design, software development, and protocol specifications.<br>
-
-   ** 2)Finite State Transducer (FST): ** Extending the concept of FSM, a finite state transducer not only includes states and transitions but also associates outputs with these transitions. This feature allows the model to not just represent internal states but also produce specific results or actions during state changes.<br>
+** 1)Finite State Machine (FSM): ** This type comprises a finite set of states, and transitions between states are dictated by well-defined inputs or events. FSMs find applications in diverse fields, including digital circuit design, software development, and protocol specifications.
+<br>
+   ** 2)Finite State Transducer (FST): ** Extending the concept of FSM, a finite state transducer not only includes states and transitions but also associates outputs with these transitions. This feature allows the model to not just represent internal states but also produce specific results or actions during state changes.
