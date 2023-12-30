@@ -5,8 +5,10 @@
 3) It is commonly used in devices like digital clocks and calculators for numeric representation.
 Here we used **Anode 7 segment diaplay** i.e we connect **COM** pin to **5V** pin.<br>
 Diagram of 7 segment display:<br>
+<pre>
   A<br>
-F \t B<br>
+F    B<br>
   G<br>
-E \t C<br>
+E    C<br>
   D<br>
+</pre>
