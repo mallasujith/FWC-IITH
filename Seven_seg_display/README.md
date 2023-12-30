@@ -29,4 +29,4 @@ Each state represents a unique mode or situation of the system.<br>
   Extending the concept of FSM, a finite state transducer not only includes states and transitions but also associates outputs with these transitions. This feature allows the model to not just represent internal states but also produce specific results or actions during state changes.<br>
 </pre>
 ### Working
-The arduino must be connected to mobile phone or laptop and the .ino file present in here must be uploaded to the board.
+The arduino must be connected to mobile phone or laptop and the <b>.ino</b> file present in here must be uploaded to the board.
