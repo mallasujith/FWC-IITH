@@ -5,3 +5,4 @@ Flip-flops are digital circuits that store binary information, typically represe
 Imagine you have a tiny electronic switch that can be in one of two states: ON or OFF. This switch is like a digital memory cell, and we call it a flip-flop.<br>
 
 Now, this flip-flop can remember if it's turned ON or OFF. You can tell it to change its state (from ON to OFF or vice versa) by giving it a special signal called a "clock." When the clock signal changes, the flip-flop either turns ON or OFF, depending on certain rules.<br>
+### There are many types of Flip-Flops, but the one given here is a D-FlipFlop
