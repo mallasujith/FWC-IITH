@@ -8,9 +8,9 @@ So, imagine you have a robot friend, and you want it to make a sandwich. Instead
 
 People use Assembly Language when they need to be super clear and efficient in talking to computers or microcontrollers (tiny computers inside gadgets). **It's not the easiest language** for humans, but <b>it's perfect for making sure robots or computers understand exactly what to do!</b><br>
 
-## How to upload Then ??
+## How to upload to board Then ??
 As we are using **Arduino Droid** and we cannot directly upload <b>.asm</b> file using it.<br>
 We use **avra filename.asm**  to generate ,bin file from assembly file.<br>
 If avra does not exist then install it using **apt install avra** <br>
-After generating .bin file we can directly upload it using arduino droid,<br>
+After generating **.bin** file we can directly upload it using arduino droid,<br>
 just head to <b> Menu --> Actions --> Upload --> Upload precompiled --> .bin file location --> Done</b>
