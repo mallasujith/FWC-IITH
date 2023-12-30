@@ -9,7 +9,7 @@
    pio lib --global install "stempedia/DabbleESP32" <br>
    .pio/build/esp32doit-devkit-v1/firmware.bin <br>
 4) After performing the first step, a setup file will be created. or if you perform step 2 and 3 you can skip the 4th step.
-5) In the setup file, we will get 4 files inside it. <br>
+5) In the **setup** file, we will get **4 files** inside it. <br>
    namely: src, .pio, platformio.ini, README.md
 6) Remember to change the main.cpp that is in src folder<br>
    #define STASSID "Salient" **// Add your network username<br>**
