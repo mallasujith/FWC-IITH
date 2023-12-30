@@ -20,7 +20,7 @@ A state machine is a conceptual model that defines the behavior of a system by d
 In this computational model, a system can exist in a finite number of distinct states, and transitions occur based on specific events or conditions. <br>
 Each state represents a unique mode or situation of the system.<br>
 
-### There are two primary categories of state machines:
+##### There are two primary categories of state machines:
 
 <b>1)Finite State Machine (FSM):</b>This type comprises a finite set of states, and transitions between states are dictated by well-defined inputs or events. FSMs find applications in diverse fields, including digital circuit design, software development, and protocol specifications.
 <br>
