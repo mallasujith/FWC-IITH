@@ -2,7 +2,7 @@
 
 ## Steps to follow:
 1) Intially, Follow all the steps as given in **vaman/installation/termuxdebian/termuxubuntu_esp32.txt**
-2) Find the circuit diagram i.e vaman arduino connections at **gadepall/digital-design/main.pdf**
+2) Find the circuit diagram i.e vaman_esp32 arduino connections at **gadepall/digital-design/main.pdf**
 3) **Or** Download all the files that i provided and do the installations in <b> point3</b>
 4) apt update && apt upgrade <br>
    apt install python3-pip <br>
