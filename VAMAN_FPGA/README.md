@@ -6,6 +6,7 @@ Steps to follow:
 4) After this type: **sudo bash setup.sh** --> This command runs the setup file i.e installs all the required packages and modules
 5) Next:
    At Home:
+   <pre>
    sudo apt update -y <br>
    sudo apt upgrade -y<br>
    sudo apt install openssh-server sshpass build-essential libssl-dev libffi-dev python3-dev bison flex git tcl-dev tcl tcl-tclreadline libreadline-dev  autoconf libtool make automake texinfo pkg-          config libusb-1.0-0 libusb-1.0-0-dev gcc-arm-none-eabi libnewlib-arm-none-eabi telnet python3 apt-utils libxslt-dev cmake curl python3-pip python3-venv -y<br>
@@ -53,3 +54,4 @@ Steps to follow:
    nvim helloworldfpga.v<br>
    nvim quickfeather.pcf<br>
    ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary<br>
+   </pre>
