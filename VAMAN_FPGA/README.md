@@ -18,7 +18,6 @@ Steps to follow:
    cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-fasm<br>
    nvim requirements.txt<br>
    python3 -m venv venv<br>
-   souce venv/bin/activate<br>
    source venv/bin/activate<br>
    pip3 install -r requirements.txt<br>
    sudo python3 setup.py install<br>
