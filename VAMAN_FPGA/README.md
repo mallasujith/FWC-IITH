@@ -6,51 +6,51 @@ Steps to follow:
 4) After this type: **sudo bash setup.sh** --> This command runs the setup file i.e installs all the required packages and modules
 5) Next:
    At Home:
-   sudo apt update -y
-   sudo apt upgrade -y
-   sudo apt install openssh-server sshpass build-essential libssl-dev libffi-dev python3-dev bison flex git tcl-dev tcl tcl-tclreadline libreadline-dev  autoconf libtool make automake texinfo pkg-          config libusb-1.0-0 libusb-1.0-0-dev gcc-arm-none-eabi libnewlib-arm-none-eabi telnet python3 apt-utils libxslt-dev cmake curl python3-pip python3-venv -y
-   pip3 install gdown lxml simplejson
-   sudo apt install openssh-server sshpass
-   sudo apt install build-essential libssl-dev libffi-dev python3-dev bison flex git tcl-dev tcl tcl-tclreadline libreadline-dev  autoconf libtool make automake texinfo pkg-config libusb-1.0-0 libusb-1.0-0-dev gcc-arm-none-eabi libnewlib-arm-none-eabi telnet python3 apt-utils libxslt-dev python3-lxml python3-simplejson cmake curl  python3-setuptools python3-pip
-   cp arch.tar.gz /home/nikhil/Desktop/fpga/arch.tar.gz
-   tar -C $INSTALL_DIR  -xvf /home/nikhil/Desktop/fpga/arch.tar.gz
-   export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"
-   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-fasm
-   nvim requirements.txt
-   python3 -m venv venv
-   souce venv/bin/activate
-   source venv/bin/activate
-   pip3 install -r requirements.txt
-   sudo python3 setup.py install
-   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-yosys
-   make config-gcc
-   make -j4 install PREFIX=$INSTALL_DIR
-   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/yosys-symbiflow-plugins
-   export PATH=$INSTALL_DIR/bin:$PATH
-   make -j4 install
-   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/vtr-verilog-to-routing
-   make -j4
-   nvim ~/.bashrc
-   source ~/.bashrc
-   vpr -h
-   yosys -h
-   qlfasm -h
-   ql_symbiflow -h
-   cd $INSTALL_DIR/quicklogic-arch-defs/tests/counter_16bit
-   ls
-   ql_symbiflow -compile -d ql-eos-s3 -P pd64 -v counter_16bit.v -t top -p chandalar.pcf -dump binary
-   pip3 install gdown lxml simplejson
-   ql_symbiflow -compile -d ql-eos-s3 -P pd64 -v counter_16bit.v -t top -p chandalar.pcf -dump binary
-   ls
-   cd /home/nikhil/Desktop/fpga
-   ls
-   mkdir fpga-examples
-   cd fpga-examples
-   svn co https://github.com/gadepall/vaman/trunk/fpga/setup/codes/blink
-   cd blink
-   ls
-   ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary
-   ls
-   nvim helloworldfpga.v
-   nvim quickfeather.pcf
-   ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary
+   sudo apt update -y <br>
+   sudo apt upgrade -y<br>
+   sudo apt install openssh-server sshpass build-essential libssl-dev libffi-dev python3-dev bison flex git tcl-dev tcl tcl-tclreadline libreadline-dev  autoconf libtool make automake texinfo pkg-          config libusb-1.0-0 libusb-1.0-0-dev gcc-arm-none-eabi libnewlib-arm-none-eabi telnet python3 apt-utils libxslt-dev cmake curl python3-pip python3-venv -y<br>
+   pip3 install gdown lxml simplejson<br>
+   sudo apt install openssh-server sshpass<br>
+   sudo apt install build-essential libssl-dev libffi-dev python3-dev bison flex git tcl-dev tcl tcl-tclreadline libreadline-dev  autoconf libtool make automake texinfo pkg-config libusb-1.0-0 libusb-1.0-0-dev gcc-arm-none-eabi libnewlib-arm-none-eabi telnet python3 apt-utils libxslt-dev python3-lxml python3-simplejson cmake curl  python3-setuptools python3-pip<br>
+   cp arch.tar.gz /home/nikhil/Desktop/fpga/arch.tar.gz<br>
+   tar -C $INSTALL_DIR  -xvf /home/nikhil/Desktop/fpga/arch.tar.gz<br>
+   export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"<br>
+   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-fasm<br>
+   nvim requirements.txt<br>
+   python3 -m venv venv<br>
+   souce venv/bin/activate<br>
+   source venv/bin/activate<br>
+   pip3 install -r requirements.txt<br>
+   sudo python3 setup.py install<br>
+   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-yosys<br>
+   make config-gcc<br>
+   make -j4 install PREFIX=$INSTALL_DIR<br>
+   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/yosys-symbiflow-plugins<br>
+   export PATH=$INSTALL_DIR/bin:$PATH<br>
+   make -j4 install<br>
+   cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/vtr-verilog-to-routing<br>
+   make -j4<br>
+   nvim ~/.bashrc<br>
+   source ~/.bashrc<br>
+   vpr -h<br>
+   yosys -h<br>
+   qlfasm -h<br>
+   ql_symbiflow -h<br>
+   cd $INSTALL_DIR/quicklogic-arch-defs/tests/counter_16bit<br>
+   ls<br>
+   ql_symbiflow -compile -d ql-eos-s3 -P pd64 -v counter_16bit.v -t top -p chandalar.pcf -dump binary<br>
+   pip3 install gdown lxml simplejson<br>
+   ql_symbiflow -compile -d ql-eos-s3 -P pd64 -v counter_16bit.v -t top -p chandalar.pcf -dump binary<br>
+   ls<br>
+   cd /home/nikhil/Desktop/fpga<br>
+   ls<br>
+   mkdir fpga-examples<br>
+   cd fpga-examples<br>
+   svn co https://github.com/gadepall/vaman/trunk/fpga/setup/codes/blink<br>
+   cd blink<br>
+   ls<br>
+   ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary<br>
+   ls<br>
+   nvim helloworldfpga.v<br>
+   nvim quickfeather.pcf<br>
+   ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary<br>
