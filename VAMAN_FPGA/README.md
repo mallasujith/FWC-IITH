@@ -18,6 +18,9 @@ Steps to follow:
    export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"<br>
    cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-fasm<br>
    nvim requirements.txt<br>
+      Replace contents with these lines:
+         -e git+https://github.com/symbiflow/fasm.git#egg=fasm
+         -e git+https://github.com/antmicro/quicklogic-fasm-utils.git#egg=fasm-utils
    python3 -m venv venv<br>
    source venv/bin/activate<br>
    pip3 install -r requirements.txt<br>
