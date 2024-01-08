@@ -5,9 +5,12 @@ Steps to follow:
 3) In here **/Desktop/fpga** type: **chmod +x setup.sh** --> This command is particularly useful for making scripts and programs executable. In this way, users can run them without typing their full path or using a dot slash (./) before their name.
 4) **sudo bash setup.sh**
 5) After running the above command, Go to: **file Manager --> Other Locations --> Computer --> root** . Copy the files **Symbiflow** and **Pygmy-dev** paste them in **"/desktop/fpga"**
-6) Make sure that **/desktop/fpga** contains **pygmy-dev**, **setup.sh** and **symbiflow** and zip file **arch.tar.gz**<br>
-7) After this type: **sudo bash setup.sh** --> This command runs the setup file i.e installs all the required packages and modules<br>
-8) Next:
+6) Now download arch.tar.gz using this below link:
+   <pre>https://iith-my.sharepoint.com/:u:/g/personal/gadepall_ee_iith_ac_in/Ebot5QHEYXBAo-7n4hnvJ
+u0B8vMrTIdj_COHJC2cmDY1ww?e=bqDxHI</pre>
+7) Make sure that **/desktop/fpga** contains **pygmy-dev**, **setup.sh** and **symbiflow** and zip file **arch.tar.gz**<br>
+8) After this type: **sudo bash setup.sh** --> This command runs the setup file i.e installs all the required packages and modules<br>
+9) Next:
    At Home:
    <pre>
    sudo apt update -y <br>
