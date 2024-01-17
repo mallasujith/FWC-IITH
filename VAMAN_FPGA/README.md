@@ -67,8 +67,9 @@ Steps to follow:
    
    <b>Command to compile code:
       
-   <pre>ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary</b><br>
-   ls</pre>
+   ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary</b><br>
+   
+   ls
    nvim helloworldfpga.v --> This file contains the code<br> 
    nvim quickfeather.pcf --> This file contains pin configurations<br>
    <b> Make sure to compile the file after modifying .v or .pcf file </b>
