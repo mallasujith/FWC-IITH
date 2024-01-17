@@ -45,6 +45,7 @@ Steps to follow:
    export  INSTALL_DIR=/home/nikhil/Desktop/fpga/symbiflow
    export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"
    export PATH=/home/nikhil/Desktop/fpga/symbiflow/bin:$PATH
+      
    source ~/.bashrc<br>
    vpr -h<br>
    yosys -h<br>
