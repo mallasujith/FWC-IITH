@@ -66,12 +66,14 @@ Steps to follow:
    ls<br>
    
    <b>Command to compile code:
-   ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary</b><br>
-   ls<br>
+      
+   <pre>ql_symbiflow -compile -src /home/nikhil/Desktop/fpga/fpga-examples/blink -d ql-eos-s3 -P PU64 -v helloworldfpga.v -t helloworldfpga -p quickfeather.pcf -dump binary</b><br>
+   ls</pre>
    nvim helloworldfpga.v --> This file contains the code<br> 
    nvim quickfeather.pcf --> This file contains pin configurations<br>
    <b> Make sure to compile the file after modifying .v or .pcf file </b>
    
    <b>Command to upload code to vaman: Make sure that vaman is in upload mode(i.e Green Light)
+      
    sudo python3 /home/nikhil/TinyFPGA-Programmer-Application/tinyfpga-programmer-gui.py --port /dev/ttyACM0 --appfpga /home/nikhil/helloworldfpga.bin --mode fpga</b>
    </pre>
