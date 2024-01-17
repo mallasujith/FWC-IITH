@@ -41,6 +41,10 @@ Steps to follow:
    cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/vtr-verilog-to-routing<br>
    make -j4<br>
    nvim ~/.bashrc<br>
+   #paste the following 3 lines at the end of the file
+   export  INSTALL_DIR=/home/nikhil/Desktop/fpga/symbiflow
+   export PATH="$INSTALL_DIR/quicklogic-arch-defs/bin:$INSTALL_DIR/quicklogic-arch-defs/bin/python3:$PATH"
+   export PATH=/home/nikhil/Desktop/fpga/symbiflow/bin:$PATH
    source ~/.bashrc<br>
    vpr -h<br>
    yosys -h<br>
