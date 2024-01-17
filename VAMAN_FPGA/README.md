@@ -25,8 +25,10 @@ Steps to follow:
       Replace contents with these lines:
          -e git+https://github.com/symbiflow/fasm.git#egg=fasm
          -e git+https://github.com/antmicro/quicklogic-fasm-utils.git#egg=fasm-utils<br>
+      
    python3 -m venv venv<br>
    source venv/bin/activate<br>
+
    pip3 install -r requirements.txt<br>
    sudo python3 setup.py install<br>
    cd /home/nikhil/Desktop/fpga/pygmy-dev/tools/quicklogic-yosys<br>
